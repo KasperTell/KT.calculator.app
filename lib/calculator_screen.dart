@@ -56,9 +56,8 @@ class _DisplayState extends State<Display> {
     );
   }
 
-  // Add a method to update the display
   void updateDisplay() {
-    setState(() {}); // Empty setState to trigger a rebuild
+    setState(() {});
   }
 }
 
